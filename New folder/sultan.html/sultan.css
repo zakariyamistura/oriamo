@@ -1,0 +1,467 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.sec1 .nav1{
+    background-color: #343434;
+    padding: 20px;
+}
+.sec1 .nav1 marquee{
+    color: white;
+}
+
+.sec2{
+    width: 100%;
+    height: 100%;
+}
+
+.sec2 .swiper{
+    width: 100%;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    /* text-decoration: none; */
+    align-items: center;
+    justify-content: space-between;
+    background-color:black;
+    padding:20px 0px;
+}
+.container a img{
+    font-weight: bold;
+    padding-left: 20px;
+}
+.container a{
+    text-decoration: none;
+    font-weight: bold;
+    color:white;
+}
+.container .list{
+    display: inline;
+    margin: 20px;
+}
+.container .navcontainer{
+    margin-right: 250px;
+}
+.container .list :hover{
+    text-decoration: underline;
+}
+.first{
+    margin-right: 30px;
+    font-size: 22px;
+}
+.second{
+   margin-right: 55px;
+    font-size: 22px;
+
+}
+.thrid{
+    margin-right: 55px;
+    font-size: 22px;
+}
+
+.cash-container{
+    width: 90%;
+    height: 2vh;
+    display: flex;
+justify-content: space-between;
+padding: 40px 100px;
+background-color: whitesmoke;
+margin-left: 50px;
+margin-top: 40px;
+border-radius: 6px;
+}
+.cash-container .cash1{
+display: flex;
+align-items: center;
+}
+.cash-container .cash2{
+    display: flex;
+    align-items: center;
+}
+.cash-container .cash3{
+    display: flex;
+    align-items: center;
+}
+.image-container{
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.image-container .image img{
+    width: 100%;
+}
+.image-container .image{
+    width: 1180px;
+    margin-left: 42px;
+    position: relative;
+}
+.image-container .image .dior{
+    color: white;
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    font-size: 20px;
+    font-weight: 550;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.image-container .image1{
+    width: 570px;
+    position: relative;
+    margin-left: 42px;
+    margin-top: 30px;
+}
+.image-container .image1 img{
+    width: 100%;
+}
+.image-container .image1 .diorr{
+    position: absolute;
+    color: white;
+    top: 25px;
+    left: 25px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 550;
+}
+.image-container .display{
+margin-left: 550px;
+    margin-top: 30px;
+    font-size: 23px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+}
+.wrap-container {
+    width: 90%;
+    height: 80vh;
+    display: flex;
+    /* justify-content: space-between; */
+    padding: 5px;
+    flex-wrap: nowrap;
+}
+.watch .line{
+    width: 250px;
+    margin-top: 10px;
+    font-size: 0.5px;
+    height: 0.2px;
+}
+.watch{
+    /* margin-left: 40px; */
+    margin-top: 20px;
+    width: 100%;
+}
+.wrap-container  .image-box img{
+    position: relative;
+    width: 260px;
+    background-color:#F8F8F8;
+    /* margin-left: 40px; */
+    border-radius: 7px;
+    }
+    .wrap-container .box{
+        padding-left: 30px;
+        width: 100%;
+    }
+.wrap-container{
+    margin-top: 50px;
+    margin-left: 30px;
+    
+}
+.watch .links{
+    font-size: 20px;
+    font-weight: 650;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+}
+.watch .blue{
+    margin-top: 2px;
+}
+.arrival-container{
+    width: 100%;
+}
+.arrival-container img{
+    width: 100%;
+    height: 70vh;
+
+}
+.arrival-container .new{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.why-container{
+    width: 100%;
+    height: 150vh; 
+    background:#F5F6F6;
+}
+.why-container .webp{
+margin-left: 25px;
+}
+.why-container .oriamo{
+    padding-top: 40px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 550;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.why-container .image{
+width: 380px;
+/* height: 450px; */
+position: relative;
+}
+.why-container .image img{
+    width: 100%;
+}
+.why-container .image .acces{
+position: absolute;
+top: 25px;
+left: 10px;
+font-weight: 550;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.why-container .imageone .acces{
+    position: absolute;
+    top: 25px;
+    left: 10px;
+    font-weight: 550;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .why-container .imagetwo .acces{
+        position: absolute;
+        top: 25px;
+        left: 10px;
+        font-weight: 550;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .why-container .imagethre .acces{
+            position: absolute;
+            top: 25px;
+            left: 10px;
+            font-weight: 550;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+            .why-container .imagefour .acces{
+                position: absolute;
+                top: 25px;
+                left: 10px;
+                font-weight: 550;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                }
+                .why-container .imagefive .acces{
+                    position: absolute;
+                    top: 25px;
+                    left: 10px;
+                    font-weight: 550;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    }
+                    .why-container .imagesix .acces{
+                        position: absolute;
+                        top: 25px;
+                        left: 10px;
+                        font-weight: 550;
+                        font-family: Verdana, Geneva, Tahoma, sans-serif;
+                        }
+.why-container .imageone img{
+    width: 100%;
+}
+.why-container .imageone{
+    position: relative;
+    top: 100px;
+    left: 15px;
+}
+.why-container .image{
+    position: relative;
+    top: 40px;
+    left: 15px;
+}
+.why-container .imagetwo{
+    position: relative;
+    left: 450px;
+    bottom: 600px;
+}
+.why-container .imagethre{
+    position: relative;
+    left: 450px;
+    bottom: 600px;
+}
+.why-container .imagefour{
+    position: relative;
+    left: 450px;
+    bottom: 600px;
+
+}
+.why-container .imagefive{
+    position: relative;
+    left: 850px;
+    bottom: 1300px;
+}
+.why-container .imagesix{
+    position: relative;
+    left: 850px;
+    bottom: 1300px;
+}
+.why-container .imageone{
+    position: relative;
+    width: 380px;
+}
+.why-container .imagetwo img{
+    width: 100%;
+}
+.why-container .imagetwo{
+    position: relative;
+    width: 380px;
+}
+.why-container .imagethre img{
+    width: 100%;
+}
+.why-container .imagethre{
+    position: relative;
+    width: 380px;
+}
+.why-container .imagefour img{
+    width: 100%;
+}
+.why-container .imagefour{
+    width: 380px;
+    position: relative;
+}
+.why-container .imagefive img{
+    width: 100%;
+}
+.why-container .imagefive{
+    width: 380px;
+    position: relative;
+}
+.why-container .imagesix{
+    width: 380px;
+    position: relative;
+}
+.why-container .imagesix img{ 
+    width: 100%;
+}
+.club-container{
+    margin-top: 40px;
+    padding: 30px;
+}
+.club-container .club a{
+color: black;
+font-size: 30px;
+text-decoration: none;
+font-weight: 550;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+padding: 5px;
+}
+.club-container .follow{
+    margin-top: 30px;
+    background-color: black;
+    color: white;
+    padding: 5px 15px;
+    font-size: 20px;
+    border-radius: 15PX;
+}
+.club-container .explorer{
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+.post-container{
+    width: 100%;
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-between;
+}
+.post-container .post1 img{
+    position: relative;
+    width: 250px;
+    height: 250px;
+}
+.club-container .news{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 545;
+}
+.input{
+    text-align: center;
+    padding-top: 40px;
+}
+.input .place{
+    padding-right: 500px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 20px;
+    border-radius: 20px;
+    
+}
+.club-container .Latest{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.main-us{
+    width: 100%;
+}
+.main-us .mainn{
+    background: #343434;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.main-us .us-us{
+    text-align: center;
+    margin-top: 30px;
+    color: white;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.main-us .insta {
+    margin-left:500px;
+    color:white;
+    margin-top: 20px;
+    font-size: 30px;
+}
+.main-us .insta a{
+    color:white;
+    padding: 20px;
+}
+.nav-container{
+    display: flex;
+    padding: 30px 50px;
+    justify-content: space-between;
+    background: black;
+    /* color: white; */
+}
+.nav-container a{
+    color:white;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.nav-container p{
+    color: white;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.club-container .input .bi-bell-fill{
+margin-right: 200px;
+}
+.nav2 .nav1{
+    margin-bottom: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+.nav3 .nav2{
+    margin-bottom: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+.nav4 .nav3{
+    margin-bottom: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
